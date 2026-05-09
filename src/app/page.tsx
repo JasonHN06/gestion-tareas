@@ -6,7 +6,7 @@ import ProviderTarea from "./providers/ProviderTarea";
 export default function Home() {
   return (
     <div>
-      <main>
+      <main className="min-h-screen bg-gray-100 p-6">
         <h1 className="text-center my-4">Gestión de Tareas</h1>
         <div className="container">
           <ProviderTarea>
